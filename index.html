@@ -1,21 +1,32 @@
 <!DOCTYPE html>
-<html lang="fr">
-<head>
+  <html lang="fr" >
+  <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Test_Github</title>
-</head>
-<body>
-    <div class="main">
-        <div class="wrapper">
-            <ul>
-                <li>home</li>
-                <li>home</li>
-                <li>home</li>
-                <li>home</li>
-            </ul>
-        </div>
+    <title>FJT</title>
+    <link rel="stylesheet" href="./style.css">
+  </head>
+  <body>
+    <!-- partial:index.partial.html -->
+    <script src='https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js'></script>
+    <script src='sticky.js'></script>
+    <link href='sticky.css' rel='stylesheet' type='text/css'>
+    <div class='header'><!--Header--></div>
+    <div class='nav'>
+      <logo>logo</logo>
+      <button class="button button1">Accueil</button>
+      <button class="button button1">Hébergements</button>
+      <button class="button button1">Restauration</button>
+      <button class="button button1">Tarifs</button>
+      <button class="button button1">Accueil</button>
     </div>
-</body>
+    <div class='content'>
+      <h1>Contenue du Site</h1>
+      <p>Using jQuery we add (or remove) a sticky class to the navigation bar. The sticky class fixes the position.</p>
+      <p>This happens whenever the page is scrolled. We check to see how far down the page has scrolled, if this number is greater than the height of the header, we add the sticky class to the navigation.</p>
+      <p>You can already achieve this effect using only CSS with <b>position: sticky;</b> but it's not supported by many browsers at the moment.</p>
+    </div>
+    <!-- partial -->
+      <script  src="./script.js"></script>
+
+  </body>
 </html>
